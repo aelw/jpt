@@ -1,0 +1,87 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro">
+<main>
+
+<div class="container">
+  
+  <h1>&#x1F31A; Welcome to the Free Tarot Reader! &#x1F31D;</h1>
+
+  <h3>This engine will generate a randomized Celtic Cross Tarot reading, based on the Rider-Waite Tarot deck.</h3>
+
+  <p> &#x1F31E; &#x1F311; &#x1F312; &#x1F313; &#x1F314;
+    &#x1F315; &#x1F316; &#x1F317; &#x1F318; &#x1F31E; </p>
+
+  <p class="quote">The true Tarot is symbolism; it speaks no other language and offers no other signs. - A.E. Waite</p>
+
+  <h4>To start, click the button below.</h4>
+
+  <button onclick="draw_celtic_cross()"> Click for your reading!</button>
+  <button onclick="erase_display()"> Clear results </button>
+
+  <br>
+  <br>
+
+  <button onclick="show_all_cards()">Click to display all cards!</button>
+
+  <br>
+
+  <p id="p1">The spirits are speaking...</p>
+
+  <p> &#x1F31E; &#x1F311; &#x1F312; &#x1F313; &#x1F314; &#x1F315; &#x1F316; &#x1F317; &#x1F318; &#x1F31E; </p>
+
+  <div class="grid-container-overall">
+    <div class="grid-container-cross-part">
+      <div class="cross-col-1">
+        <div class="grid-item-cross" id="celtic-num-3">
+        </div>
+      </div>
+      <div class="cross-col-2">
+        <div class="grid-item-cross" id="celtic-num-5">
+        </div>
+        <div class="special-grid-item-middle">
+          <div class="special-grid-item-1" id="celtic-num-1">
+          </div>
+          <div class="special-grid-item-2" id="celtic-num-2">
+          </div>
+        </div>
+        <div class="grid-item-cross" id="celtic-num-6">
+        </div>
+      </div>
+      <div class="cross-col-3">
+        <div class="grid-item-cross" id="celtic-num-4">
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-container-staff-part">
+      <div class="grid-item-staff" id="celtic-num-7">
+      </div>
+      <div class="grid-item-staff" id="celtic-num-8">
+      </div>
+      <div class="grid-item-staff" id="celtic-num-9">
+      </div>
+      <div class="grid-item-staff" id="celtic-num-10">
+      </div>
+    </div>
+  </div>
+
+  <div id="explanation-display">
+    <div id="results"></div>
+    <!--     <p id="results-array"></p> -->
+    <!--     <ol id="results"></ol> -->
+
+    <!-- <div class="placard-container" id="celtic-exp-1">
+      <p class="placard-container-item celtic-identifier-name">Celtic Card Name</p>
+      <div class="placard-container-item card-container" style="flex-grow: 2">
+        <img width=120 height=200px class="card-image card-container-item">
+        <p class="card-container-item card-name"></p>
+      </div>
+      <p class="placard-container-item card-explanation" style="flex-grow: 3"></p>
+    </div> -->
+  </div>
+</div>
+
+<!--   <button onclick="show_indexed_card(0)">Click to draw King of Pentacles card</button>-->
+
+<script></script>
+  
+</main>

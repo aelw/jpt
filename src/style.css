@@ -1,0 +1,287 @@
+/*GENERAL*/
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Serif Pro", serif;
+  text-align: center;
+  background-color: black;
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/08/08/26/northern-hemisphere-3591569_1280.jpg");
+}
+
+.container {
+  text-align: center;
+  background-color: seashell;
+  opacity: 0.95;
+  width: 75vw;
+  min-height: 75vh;
+  height: auto;
+  margin: 20px auto;
+  padding: 20px;
+  border: 5px black ridge;
+}
+
+/*sets default img size*/
+
+div.explanation {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*HEADING*/
+
+.quote {
+  font-style: italic;
+}
+
+/*CARD ATTRIBUTE*/
+
+.reversed {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/*MOBILE SPECIFICATIONS*/
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="grid-container-"] {
+    width: 100%;
+  }
+
+  .card-img {
+    max-width: 100%;
+    height: auto;
+/*     border: 5px dashed purple; */
+  }
+
+  .grid-container-overall {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-container-cross-part {
+    display: flex;
+    /*     grid-template-columns: auto auto auto; */
+    justify-content: center;
+/*     border: 5px dashed blue; */
+    width: 100%;
+    text-align: center;
+  }
+
+  .grid-container-staff-part {
+    display: flex;
+    padding: 25%;
+    flex-direction: column;
+/*     border: 10px solid pink; */
+  }
+
+  .cross-col-1,
+  .cross-col-3 {
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+/*     border: 3px dashed turquoise; */
+  }
+
+  .cross-col-2 {
+    max-width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+/*     border: 2px dotted magenta; */
+  }
+
+  .grid-container-staff-part {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+/*     border: 5px dashed aqua; */
+  }
+
+  .special-grid-item-middle {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .special-grid-item-1 {
+    z-index: -1;
+  }
+
+  .special-grid-item-2 {
+    position: absolute;
+    top: 2px;
+    left: -5px;
+    -webkit-transform: rotate(-75deg);
+    -moz-transform: rotate(-75deg);
+    -ms-transform: rotate(-75deg);
+    -o-transform: rotate(-75deg);
+    transform: rotate(-75deg);
+  }
+}
+
+/*DESKTOP SPECIFICATIONS*/
+
+@media only screen and (min-width: 768px) {
+  .card-img {
+    width: 125px;
+    height: auto;
+/*     border: 2px solid goldenrod; */
+  }
+
+  .grid-container-overall {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 65% 35%;
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+/*     border: 2px solid green; */
+  }
+
+  .grid-container-cross-part {
+    display: grid;
+    grid-template-columns: auto auto auto;
+/*     border: 5px dashed blue; */
+  }
+
+  .cross-col-1,
+  .cross-col-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+/*     border: 3px dotted black; */
+  }
+
+  .cross-col-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+/*     border: 2px dotted magenta; */
+  }
+
+  .grid-container-staff-part {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+/*     border: 5px dashed aqua; */
+  }
+
+  .special-grid-item-middle {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .special-grid-item-1 {
+    z-index: -1;
+  }
+
+  .special-grid-item-2 {
+    position: absolute;
+    top: 2px;
+    left: -5px;
+    -webkit-transform: rotate(-75deg);
+    -moz-transform: rotate(-75deg);
+    -ms-transform: rotate(-75deg);
+    -o-transform: rotate(-75deg);
+    transform: rotate(-75deg);
+  }
+
+  .grid-item-staff {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .grid-item-cross {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  /*EXPLANATION SECTION*/
+
+  .result-display {
+    position: relative;
+    text-align: center;
+    /*   border: dashed pink; */
+  }
+
+  .explanation {
+    position: relative;
+    float: right;
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .placard-container {
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: left;
+/*     border: 1px black groove; */
+  }
+
+  .placard-container-item {
+    margin: 10px;
+    /*   border: 2px orange solid; */
+  }
+
+  .celtic-identifier-name {
+    /*   border: 2px solid blue; */
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+/*     border: 1px purple dotted; */
+  }
+
+  .card-container-item {
+    margin: 10px;
+  }
+
+  .card-explanation {
+    /*   border: 1px dashed brown; */
+    flex-grow: 3;
+  }
+
+  .card-image-container {
+    /*   border: dashed black 2px; */
+  }
+
+  .card-image {
+    display: flex;
+    flex-direction: column;
+/*     border: dashed aqua 2px; */
+  }
+}
