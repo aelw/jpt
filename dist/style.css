@@ -81,7 +81,7 @@ div.explanation {
 
   .grid-container-staff-part {
     display: flex;
-    padding: 25%;
+    padding: 25% 0 25% 25%;
     flex-direction: column;
 /*     border: 10px solid pink; */
   }
@@ -143,13 +143,14 @@ div.explanation {
   .grid-container-overall {
 
 	background: #000;
-	background-image: url('https://cdnb.artstation.com/p/assets/covers/images/015/151/525/large/taylor-richardson-magiccircle.jpg?1547239370');
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+	/*background-image: url('https://cdnb.artstation.com/p/assets/covers/images/015/151/525/large/taylor-richardson-magiccircle.jpg?1547239370');*/
 	background-size:auto 100%;
 	    	background-repeat: no-repeat;
     	background-position: center center;
 
     display: grid;
-    text-align: center;
+    text-align: right;
     grid-template-columns: 65% 35%;
     width: 90%;
     height: auto;
