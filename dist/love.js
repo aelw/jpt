@@ -30,7 +30,7 @@ var Fool = {
   element: "NA",
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
-  img: "https://upload.wikimedia.org/wikipedia/en/9/90/RWS_Tarot_00_Fool.jpg",
+  img: "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_00_Fool.jpg",
   rw_addendum:
     "어리석음, 조증, 사치, 도취, 정신 착란, 광란, 비통함.\n \
     reversed : 태만, 부재, 분배, 부주의, 무관심, 무효, 허영심.",
@@ -53,7 +53,7 @@ var Magician = {
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
   img:
-    "https://upload.wikimedia.org/wikipedia/en/d/de/RWS_Tarot_01_Magician.jpg",
+    "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_01_Magician.jpg",
   rw_addendum:
     "Skill, diplomacy, address, subtlety; sickness, pain, loss, disaster, snares of enemies; \
     self-confidence, will; the Querent, if male. Reversed: Physician, Magus, mental disease, disgrace, disquiet.",
@@ -76,7 +76,7 @@ var HighPriestess = {
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
   img:
-    "https://upload.wikimedia.org/wikipedia/en/8/88/RWS_Tarot_02_High_Priestess.jpg",
+    "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_02_High_Priestess.jpg",
   rw_addendum:
     "Secrets, mystery, the future as yet unrevealed; the woman who interests the Querent, if male;\n \
     the Querent herself, if female; silence, tenacity; mystery, wisdom, science. Reversed: Passion, moral or physical ardour, conceit, surface knowledge.",
@@ -99,7 +99,7 @@ var Empress = {
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
   img:
-    "https://upload.wikimedia.org/wikipedia/en/d/d2/RWS_Tarot_03_Empress.jpg",
+    "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_03_Empress.jpg",
   rw_addendum:
     "Fruitfulness, action, initiative, length of days; the unknown, clandestine; also difficulty, doubt, ignorance.\n\
     Reversed: Light, truth, the unravelling of involved matters, public rejoicings; according to another reading, vacillation.",
@@ -122,7 +122,7 @@ var Emperor = {
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
   img:
-    "https://upload.wikimedia.org/wikipedia/en/c/c3/RWS_Tarot_04_Emperor.jpg",
+    "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_04_Emperor.jpg",
   rw_addendum:
     "사회성 권위, 지배, 안정, 행동력, 성취, 달성, 완전 강한 긍정, 능력자, 사업자기질, 완벽주의\n\
     reversed: 낭비하는, 의심 많은, 자기 주장이 강함, 게으름",
@@ -145,7 +145,7 @@ var Hierophant = {
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
   img:
-    "https://upload.wikimedia.org/wikipedia/en/8/8d/RWS_Tarot_05_Hierophant.jpg",
+    "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_05_Hierophant.jpg",
   rw_addendum:
     "Marriage, alliance, captivity, servitude; by another account, mercy and goodness; inspiration; the man to whom the Querent has recourse.\n\
     Reversed: Society, good understanding, concord, overkindness, weakness.",
@@ -167,7 +167,7 @@ var Lovers = {
   element: "NA",
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
-  img: "https://upload.wikimedia.org/wikipedia/en/d/db/RWS_Tarot_06_Lovers.jpg",
+  img: "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_06_Lovers.jpg",
   rw_addendum:
     "Attraction, love, beauty, trials overcome.\n\
     Reversed: Failure, foolish designs. Another account speaks of marriage frustrated and contrarieties of all kinds.",
@@ -190,7 +190,7 @@ var Chariot = {
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
   img:
-    "https://upload.wikimedia.org/wikipedia/en/9/9b/RWS_Tarot_07_Chariot.jpg",
+    "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_07_Chariot.jpg",
   rw_addendum:
     "Succour, providence; also war, triumph, presumption, vengeance, trouble.\n\
     Reversed: Riot, quarrel, dispute, litigation, defeat.",
@@ -213,7 +213,7 @@ var Strength = {
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
   img:
-    "https://upload.wikimedia.org/wikipedia/en/f/f5/RWS_Tarot_08_Strength.jpg",
+    "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_08_Strength.jpg",
   rw_addendum:
     "Power, energy, action, courage, magnanimity; also complete success and honours.\n\
     Reversed: Despotism, abuse if power, weakness, discord, sometimes even disgrace.",
@@ -234,7 +234,7 @@ var Hermit = {
   element: "NA",
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
-  img: "https://upload.wikimedia.org/wikipedia/en/4/4d/RWS_Tarot_09_Hermit.jpg",
+  img: "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_09_Hermit.jpg",
   rw_addendum:
     "Prudence, circumspection; also and especially treason, dissimulation, roguery, corruption.\n\
     Reversed: Concealment, disguise, policy, fear, unreasoned caution.",
@@ -256,7 +256,7 @@ var WheelFortune = {
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
   img:
-    "https://upload.wikimedia.org/wikipedia/en/3/3c/RWS_Tarot_10_Wheel_of_Fortune.jpg",
+    "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_10_Wheel_of_Fortune.jpg",
   rw_addendum:
     "Destiny, fortune, success, elevation, luck, felicity.\n\
     Reversed: Increase, abundance, superfluity.",
@@ -278,7 +278,7 @@ var Justice = {
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
   img:
-    "https://upload.wikimedia.org/wikipedia/en/e/e0/RWS_Tarot_11_Justice.jpg",
+    "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_11_Justice.jpg",
   rw_addendum:
     "Equity, rightness, probity, executive; triumph of the deserving side in law.\n\
     Reversed: Law in all its departments, legal complications, bigotry, bias, excessive severity.",
@@ -300,7 +300,7 @@ var HangedMan = {
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
   img:
-    "https://upload.wikimedia.org/wikipedia/en/2/2b/RWS_Tarot_12_Hanged_Man.jpg",
+    "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_12_Hanged_Man.jpg",
   rw_addendum:
     "Wisdom, circumspection, discernment, trials, sacrifice, intuition, divination, prophecy.\n\
     Reversed: Selfishness, the crowd, body politic.",
@@ -321,7 +321,7 @@ var Death = {
   element: "NA",
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
-  img: "https://upload.wikimedia.org/wikipedia/en/d/d7/RWS_Tarot_13_Death.jpg",
+  img: "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_13_Death.jpg",
   rw_addendum:"",
   rw_meaning:Death()};
 
@@ -341,7 +341,7 @@ var Temperance = {
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
   img:
-    "https://upload.wikimedia.org/wikipedia/en/f/f8/RWS_Tarot_14_Temperance.jpg",
+    "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_14_Temperance.jpg",
   rw_addendum:
     "Economy, moderation, frugality, management, accommodation.\n\
   Reversed: Things connected with churches, religions, sects, the priesthood, sometimes even the priest who will marry the Querent;\
@@ -363,7 +363,7 @@ var Devil = {
   element: "NA",
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
-  img: "https://upload.wikimedia.org/wikipedia/en/5/55/RWS_Tarot_15_Devil.jpg",
+  img: "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_15_Devil.jpg",
   rw_addendum:
     "Ravage, violence, vehemence, extraordinary efforts, force, fatality; that which is predestined but is not for this reason evil.\n\
   Reversed: Evil fatality, weakness, pettiness, blindness.",
@@ -384,7 +384,7 @@ var Tower = {
   element: "NA",
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
-  img: "https://upload.wikimedia.org/wikipedia/en/5/53/RWS_Tarot_16_Tower.jpg",
+  img: "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_16_Tower.jpg",
   rw_meaning: "",
   rw_addendum:
     "Misery, distress, indigence, adversity, calamity, disgrace, deception, ruin. It is a card in particular of unforeseen catastrophe.\n\
@@ -406,7 +406,7 @@ var Star = {
   element: "NA",
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
-  img: "https://upload.wikimedia.org/wikipedia/en/d/db/RWS_Tarot_17_Star.jpg",
+  img: "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_17_Star.jpg",
   rw_addendum:
     "Loss, theft, privation, abandnment; another reading says- hope and bright prospects.\n\
   Reversed: Arrogance, haughtiness, impotence.",
@@ -427,7 +427,7 @@ var Moon = {
   element: "NA",
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
-  img: "https://upload.wikimedia.org/wikipedia/en/7/7f/RWS_Tarot_18_Moon.jpg",
+  img: "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_18_Moon.jpg",
   rw_addendum:
     "Hidden enemies, danger, calumny, darkness, terror, deception, occult forces, error.\n\
   Reversed: Instability, inconstancy, silence, lesser degrees of deception and error.",
@@ -448,7 +448,7 @@ var Sun = {
   element: "NA",
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
-  img: "https://upload.wikimedia.org/wikipedia/en/1/17/RWS_Tarot_19_Sun.jpg",
+  img: "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_19_Sun.jpg",
   rw_addendum:
     "Material happiness, fortunate marriage, contentment.\n\
   Reversed: The same in a lesser sense.",
@@ -470,7 +470,7 @@ var Judgment = {
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
   img:
-    "https://upload.wikimedia.org/wikipedia/en/d/dd/RWS_Tarot_20_Judgement.jpg",
+    "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_20_Judgement.jpg",
   rw_addendum:
     "Change of position, renewal, outcome. Another account specifies total loss through lawsuit.\n\
   Reversed: Weakness, pusillanimity, simplicity; also deliberation, decision, sentence.",
@@ -491,7 +491,7 @@ var World = {
   element: "NA",
   zodiac_sign: "NA",
   direction: upright_or_reversed(),
-  img: "https://upload.wikimedia.org/wikipedia/en/f/ff/RWS_Tarot_21_World.jpg",
+  img: "https://github.com/aelw/tt/raw/main/dist/RWS_Tarot_21_World.jpg",
   rw_addendum:
     "Assured success, recompense, voyage, route, emigration, flight, change of place.\n\
   Reversed: Inertia, fixity, stagnation, permanence.",
@@ -736,4 +736,3 @@ var draw_cross_graphic = function (array) {
   }
   return;
 };
-
